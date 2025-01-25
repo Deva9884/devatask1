@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+
+        display: grid;
+        place-content: center;
+        min-height: 100vh;       
+}
+.container{
+    text-align: center;
+    padding: 20px;
+    background-color: hsl(0, 0%, 12%);
+    width: fit-content;
+    margin: 100px;
+    margin-right: 100px;
+    
+}
+.container img{
+    border-radius: 50%;
+}
+.container .text{
+    color: white;
+}
+.container .text .clr{
+    color: hsl(75, 94%, 57%);
+}
+.container button{
+    height: 40px;
+    width: 200px;
+    background-color:rgb(53,53,53) ;
+    border-radius: 5px;
+    color: white;
+    border: 0;
+    
+}
+.container button:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
+.container .but div{
+    height: 50px;
+}
