@@ -10,15 +10,18 @@ body{
     padding: 20px;
     background-color: hsl(0, 0%, 12%);
     width: fit-content;
-    margin: 100px;
-    margin-right: 100px;
+   
+ 
     
 }
 .container img{
-    border-radius: 50%;
-}
+    border-radius: 70%;
+    height: 80px;
+    width: 80px;
+}  
 .container .text{
     color: white;
+
 }
 .container .text .clr{
     color: hsl(75, 94%, 57%);
